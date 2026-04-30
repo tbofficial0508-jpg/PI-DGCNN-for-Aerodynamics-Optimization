@@ -1,3 +1,5 @@
+NOTE: THIS PIPELINE ONLY WORKS FOR NVIDIA GPU MODEL TRAINING 
+
 # PIDGCNN — Physics-Informed Aerodynamic Surrogate
 
 Physics-Informed Dynamic Graph CNN surrogate for EDF drone aerodynamics.
