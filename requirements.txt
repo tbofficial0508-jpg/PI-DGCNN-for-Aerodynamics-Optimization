@@ -1,0 +1,10 @@
+# Core runtime dependencies
+# Install PyTorch separately with the CUDA build matching your GPU driver:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+# See https://pytorch.org/get-started/locally/ for the right command.
+torch>=2.0.0
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+scipy>=1.11
+tqdm>=4.65

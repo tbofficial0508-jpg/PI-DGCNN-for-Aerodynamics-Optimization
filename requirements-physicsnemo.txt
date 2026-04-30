@@ -1,0 +1,11 @@
+# Optional: NVIDIA PhysicsNeMo — required only for Phase 3 physics losses
+# (--use_physicsnemo flag).  The core pipeline runs without this package;
+# physics_nemo.py silently falls back to supervised-only training when
+# physicsnemo is not installed.
+#
+# Installation:
+#   pip install physicsnemo
+#
+# PhysicsNeMo requires Linux + CUDA.  See:
+#   https://github.com/NVIDIA/physicsnemo
+physicsnemo

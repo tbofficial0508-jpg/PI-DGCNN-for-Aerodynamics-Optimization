@@ -1,0 +1,79 @@
+# ── CFD simulation data (not versioned — bring your own fluent_exports/) ──────
+fluent_exports/
+dataset_pointcloud*/
+*.npz
+
+# ── Training outputs ──────────────────────────────────────────────────────────
+runs/
+pipeline.log
+
+# ── Model checkpoints ────────────────────────────────────────────────────────
+*.pt
+*.pth
+
+# ── HPC package (excluded from this release) ─────────────────────────────────
+hpc_package/
+
+# ── Sim-based CFD optimisation (excluded — separate PyFluent pipeline) ────────
+Sim based optimization/
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+MANIFEST
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# ── Claude Code memory (private, session-local) ───────────────────────────────
+.claude/
+
+# ── HPC PBS submission script ─────────────────────────────────────────────────
+python-pytorch.sub
+
+# ── Research report (not part of the pipeline) ────────────────────────────────
+progress_report.*
+references.bib
+
+# ── LaTeX compilation artefacts ───────────────────────────────────────────────
+*.aux
+*.bbl
+*.blg
+*.synctex.gz
+*.toc
+*.fls
+*.fdb_latexmk
+*.pdf
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+*.tmp
+*.bak
+*.log
